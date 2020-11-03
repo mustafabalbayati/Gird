@@ -55,3 +55,43 @@ label{
 #toggle {
   display: none;
 }
+
+@media only screen and (max-width: 940px){
+
+
+label{
+  display: block;
+  cursor: pointer;
+}
+.menu  {
+
+  text-align: right;
+  width: 100%;
+  display: none;
+
+}
+
+.menu a{
+  display: block;
+
+  margin: 0;
+}
+#toggle:checked + .menu{
+  display: block;
+}
+}
+@media only screen and (max-width: 940px){
+
+.wrapper > div {
+  position: relative;
+  top:70px;
+}
+
+.About{
+  position: relative;
+  top: 70px;
+}
+
+.logo{
+  align-content: center;
+}

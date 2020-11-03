@@ -1,0 +1,32 @@
+
+body{
+  background-color: #232323;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+
+}
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+
+  background: #ddd;
+
+}
+
+.About{
+  text-align: center;
+  color: #eee;
+}
+
+.logo{
+  text-align: center;
+  color: #E4A302;
+}
